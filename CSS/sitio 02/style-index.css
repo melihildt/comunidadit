@@ -1,0 +1,110 @@
+body {
+    width: 375px;
+    height: 720px;
+    overflow: scroll;
+    margin: 0px;
+}
+header {
+    height: 120px;
+    overflow: hidden;
+}
+header > img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+header > div {
+    position: absolute;
+    top: 46px;
+    left: 80px;
+    text-align: center;
+}
+.caja-header { 
+    text-decoration: none;
+    color:white;
+    font-family: AvenirNext-DemiBold;
+    font-size: 24px;
+    padding: 8px 8px;
+    border: 4px solid rgba(255,255,255,0.40);
+    /* --- resolver centrado de caja -- */
+}
+li {
+    display: inline-block;
+    width: 344px;
+    height: 96px;
+}
+.icono {
+    float: left;
+    width: 115px;
+    vertical-align: middle;
+}
+.card > p {
+    text-align: center;
+    vertical-align: middle;
+    font-family: AvenirNext-Regular;
+    font-size: 14px;
+    color: #4A4A4A;
+}
+.boton {
+    text-align: center;
+    vertical-align: middle;
+}
+button {
+    background: #2FB4C2;
+    border-radius: 24px;
+    font-family: AvenirNext-Medium;
+    font-size: 12px;
+    color: #FFFFFF;
+    padding: 4px 20px;
+    border: none;
+}
+button:hover {
+  background: #EC7886;
+  text-decoration: none;
+}
+.binoculares {
+    padding-top: 15px;
+}
+.menu {
+    padding: 8px 16px 8px 24px;
+}
+footer {
+    background-color: #ABD1DB;
+    height: 53px;
+    padding: 8px;
+}
+footer > p {
+    text-align: center;
+    font-family: AvenirNext-Italic;
+    font-size: 12px;
+    color: #4A4A4A;
+}
+
+/* -- MEDIA QUERIES para IPAD -- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+body {
+    width: 768px;
+    height: 1024;
+}
+header {
+    height: 233;
+    overflow: hidden;
+}
+header > img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.caja-header {
+    font-size: 42px;
+    padding: 16px;
+    border: 6px solid rgba(255,255,255,0.40);
+}
+div {
+    height: 233px;
+
+}
+}
